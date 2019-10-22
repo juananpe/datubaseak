@@ -18,7 +18,7 @@ public class DBKudeatzaile {
 		InputStream in = null;
 
 		try {
-			in = MainDBKud.class.getResourceAsStream("/setup.properties");
+			in = this.getClass().getResourceAsStream("/setup.properties");
 			properties = new Properties();
 			properties.load(in);
 		} catch (IOException e) {

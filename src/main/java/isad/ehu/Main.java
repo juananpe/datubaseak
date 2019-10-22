@@ -41,7 +41,7 @@ public class Main {
 
         int edukiera = rs.getInt("edukiera");
         String matrikula = rs.getString("matrikula");
-        Date noizkoa = rs.getDate("noizko");
+        Date noizkoa = rs.getDate("noizkoa");
 
         System.out.println("Matrikula:" + matrikula);
         System.out.println("Edukiera:" + edukiera);
